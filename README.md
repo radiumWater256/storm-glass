@@ -10,4 +10,4 @@ A test for my upcoming project
 
 Link to Jump back to Section 1
 
-[Here](README.md#1)
+[Here](README.md#section-1)
