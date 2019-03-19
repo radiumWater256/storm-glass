@@ -2,14 +2,20 @@
 
 # Section 1
 
-> Cognito Ergo Sum
+# not sure what is problem setting
+Problem setting:
+Target group: renowned brands
 
-A test for my upcoming project
-
-# Section 2
-
-Link to Jump back to Section 1
-## Some filling text
-But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
-
-[Here](README.md#section-1)
+Problem statement: 
+-Issue: "out-of-stock" situation, leading to lost sales for retailers and disappointment for in-storre shoppers
+-Method of solving: develop an inventory system which allows staff to manage and record commodity inventory in different retail shops for monitoring inventory status, reduces time for managing inventory by keeping records in place, and improves delivery by managing stock-outs and meeting customer expections.
+-Vision: The system allows renowned brands to control and manage the ordering and storage of inventory, which helps optimizing the management process
+-Features of the system:
+1) Search commodity according to different filters (e.g. in-stock/out-of-stock)
+2) Insert new commodity with basic information (name, manufacturer, amount, price, availability of shop(s)) after eachh procurement
+3) Delete obsolete commodity
+4) Update commodity information
+5) Automatic change of inventory status according to the amount of commodity that is currently available (e.g. when the amount reaches zero, the inventory status would become "out-of-stock")
+6) Deliver alerts when the commodity is "out-of-stock"
+# The below feature is added by me, feel free to add more
+7) Change currency
