@@ -15,5 +15,5 @@
 4. Update commodity information
 5. Automatic change of inventory status according to the amount of commodity that is currently available (e.g. when the amount reaches zero, the inventory status would become "out-of-stock")
 6. Deliver alerts when the commodity is "out-of-stock"
-# The below feature is added by me, feel free to add more
+> The below feature is added by me, feel free to add more
 **7. Change currency**
