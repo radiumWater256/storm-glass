@@ -1,9 +1,10 @@
-# storm-glass
-
+# Project Storm Glass
+>A decent commodity management system
 # Problem Setting
-> not sure what is problem setting
+ - The system is best given to reowned brands which in desperate need of backtracing logistics
 ## Target group: renowned brands
-
+- Lots of data migration
+  - A logging system is neccessary
 # Problem statement: 
 - Issue: "out-of-stock" situation, leading to lost sales for retailers and disappointment for in-storre shoppers
 - Method of solving: develop an inventory system which allows staff to manage and record commodity inventory in different retail shops for monitoring inventory status, reduces time for managing inventory by keeping records in place, and improves delivery by managing stock-outs and meeting customer expections.
@@ -15,7 +16,4 @@
 4. Update commodity information
 5. Automatic change of inventory status according to the amount of commodity that is currently available (e.g. when the amount reaches zero, the inventory status would become "out-of-stock")
 6. Deliver alerts when the commodity is "out-of-stock"
-
-> The below feature is added by me, feel free to add more
-
-**7. Change currency**
+> 7. Invoice Generation, Merchandise Statistics or Change of currency
