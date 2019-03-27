@@ -10,6 +10,7 @@ There are different status of an inventory that the system need to resolve
  - Kepp track on import/export of merchandise
  - Give warning if certain types of goods is out-of-stock/expired
  - Monitor Inventory Access
+
 In the meantime, the system shall be under control of authorized staff, which they can
  - Add/Delete Merchanise
  - Search for Merchandise according to different applied filters.
