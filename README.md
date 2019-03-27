@@ -7,7 +7,7 @@
   - A logging system is neccessary
 ## Problem statement: 
 There are different status of an inventory that the system need to resolve
- - Kepp track on import/export of merchandise
+ - Keep track on import/export of merchandise
  - Give warning if certain types of goods is out-of-stock/expired
  - Monitor Inventory Access
 
@@ -15,6 +15,9 @@ In the meantime, the system shall be under control of authorized staff, which th
  - Add/Delete Merchanise
  - Search for Merchandise according to different applied filters.
  - Update Existing Merchanise
+ - View previous statistics (e.g. what type of commodity is restored the most)
+ - Change currency according to the country of the provider of the commodity
+ 
 ## System Features
 1. Search commodity according to different filters (e.g. in-stock/out-of-stock)
 2. Insert new commodity with basic information (name, manufacturer, amount, price, availability of shop(s)) after eachh procurement
