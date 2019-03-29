@@ -5,6 +5,7 @@
 ## Target group: renowned brands
 - Lots of data migration
   - A logging system is neccessary
+- There is a need for premission management as well
 ## Problem statement: 
 There are different status of an inventory that the system need to resolve
  - Keep track on import/export of merchandise
