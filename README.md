@@ -77,7 +77,7 @@ to start using the system
 
 # A Note to T.A.s and/or Lectuer
 
-Due to a massive offline change, github cannot correctly determine me and my group mates' code contribution, with my group mate's approvel, a list of contribution is written below to show the coontribution of each of us in the system, in terms of function.
+Due to a massive offline change, github cannot correctly determine me and my group mates' code contribution, with my group mate's approvel, a list of contribution is written below to show the contribution of each of us in the system, in terms of function.
 
 - int main()
 	- 90% Cheung Chun Ho
