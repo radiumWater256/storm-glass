@@ -1,5 +1,9 @@
 # Project Storm Glass
 >A decent commodity management system
+
+Prepared by
+Cheung Chun Ho (3035601853)
+
 # Problem Setting
  - The system is best given to reowned brands which in desperate need of backtracing logistics
 ## Target group: renowned brands
@@ -26,4 +30,7 @@ In the meantime, the system shall be under control of authorized staff, which th
 4. Update commodity information
 5. Automatic change of inventory status according to the amount of commodity that is currently available (e.g. when the amount reaches zero, the inventory status would become "out-of-stock")
 6. Deliver alerts when the commodity is "out-of-stock"
-> 7. Invoice Generation, Merchandise Statistics or Change of currency
+7. Merchandise Statistics and permission
+
+## System Design
+To keep track on product import and export, the system we created has a logging system as the main component, which helps
