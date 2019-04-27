@@ -47,4 +47,29 @@ For example:
  
 ## Implementation
 The system is build using C++, making use of File Streams, Time and Structures to implement the Inventory system.
-The most important above all, is that the formatting of the files are for the 
+The most important above all, is that datum in the files are formatted in a manner that the program will recognise and retrieve quickly.
+
+### Example 1 of data files: USERS.TXT
+
+	Alex A
+
+Above is a line of user data stored in USER.TXT
+
+The Left indicate the name of the user and the right is a indicator for administrative privileges, and that user will need to enter the admin password in order to login. The right side would be empty if that user is a ordinary user.
+
+### Exmple 2 of data files: ITEMS.TXT
+
+	Eggs,eggs,100,2,2019-4-25
+
+The above line contains 5 information above the eggs just been imported. And it is in the following order.
+	<Product Name>,<Product Category>,<Quantity>,<Shelf Life>,<Import Date>
+
+The system will retrieve such information by seperating according to the commas.
+
+
+##Instructions to compile
+Clone this to your local directory and type make in you terminal, it will automatically link all source files and generate a bunch of new files, but the only executable is called main.
+
+Type
+	./main
+to start using the system
