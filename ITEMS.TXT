@@ -1,0 +1,5 @@
+Corned beef,meat,190,3650,2000-10-23
+Colt M1911,firearms/pistols,50,-1,1999-9-9
+Eggs,eggs,100,2,2019-4-25
+Chicken Breasts,meat,99,5,2019-4-26
+Beer,alcoholic beverages,99,2,2019-4-20

@@ -1,0 +1,20 @@
+User named <su> successful login at 2019-04-27 19:10:34
+User named <su> successful ADMIN login attempt at 2019-04-27 19:10:37
+User named <su> signed out from the system at 2019-04-27 19:11:03
+User named <alex> successful login at 2019-04-27 19:13:21
+User named <alex> signed out from the system at 2019-04-27 19:13:36
+User named <alex> successful login at 2019-04-27 19:29:59
+User named <alex> signed out from the system at 2019-04-27 19:39:29
+User named <ben> successful login at 2019-04-27 19:39:42
+User named <ben> signed out from the system at 2019-04-27 19:40:02
+User named <alex> successful login at 2019-04-27 21:01:13
+User named <alex> signed out from the system at 2019-04-27 21:01:22
+User named <su> successful login at 2019-04-27 21:13:18
+User named <su> successful ADMIN login attempt at 2019-04-27 21:13:23
+User named <su> signed out from the system at 2019-04-27 21:13:28
+User named <be> unsuccessful login attempt at 2019-04-27 21:18:56
+User named <ben> successful login at 2019-04-27 21:19:02
+User named <ben> successful login at 2019-04-27 21:20:02
+User named <ben> signed out from the system at 2019-04-27 21:20:28
+User named <ben> successful login at 2019-04-27 21:23:05
+User named <ben> signed out from the system at 2019-04-27 21:23:15

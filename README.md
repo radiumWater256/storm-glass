@@ -33,4 +33,18 @@ In the meantime, the system shall be under control of authorized staff, which th
 7. Merchandise Statistics and permission
 
 ## System Design
-To keep track on product import and export, the system we created has a logging system as the main component, which helps
+To keep track on product import and export, the system we created has a logging system as the main component, which helps management staff to trace any changes made to the inventory. Secondly, the system is equiped with a permission system, users are defined into two groups for different degree of access to the system.
+The ordinary users are able to search for existing commodities and change property of those goods. While the administrators can add and delete records in addition to the mentioned functions.
+Thirdly, the system has a password lock embedded to the code itself, providing a basic form of secuirty to protect the privilege of the administrators.
+
+Other than the specialised functions, the system provide ordinary functionality as a commodity management system.
+For example:
+ - Add/Delete Records
+ - Editing of Records
+ - Search for Records
+ - Expiration Detection
+ - View All Records
+ 
+## Implementation
+The system is build using C++, making use of File Streams, Time and Structures to implement the Inventory system.
+The most important above all, is that the formatting of the files are for the 
