@@ -3,6 +3,7 @@
 
 Prepared by
 Cheung Chun Ho (3035601853)
+Kwan Nga Man (3035565877)
 
 # Problem Setting
  - The system is best given to reowned brands which in desperate need of backtracing logistics
@@ -21,7 +22,6 @@ In the meantime, the system shall be under control of authorized staff, which th
  - Search for Merchandise according to different applied filters.
  - Update Existing Merchanise
  - View previous statistics (e.g. what type of commodity is restored the most)
- - Change currency according to the country of the provider of the commodity
  
 ## System Features
 1. Search commodity according to different filters (e.g. in-stock/out-of-stock)
@@ -81,26 +81,26 @@ Due to a massive offline change, github cannot correctly determine me and my gro
 
 - int main()
 	- 90% Cheung Chun Ho
-	- 10% Kwan Ka Man
+	- 10% Kwan Nga Man
 - int mainMenu(string , bool)
 	- 100% Cheung Chun Ho
 - int searchItem()
-	- 90% Kwan Ka Man
+	- 90% Kwan Nga Man
 - bool checkDateStr(string dateStr)
 	- 100% Chun Chun Ho
 - int addItem(string )
-	- 80% Kwan Ka Man
+	- 80% Kwan Nga Man
 	- 20% Cheung Chun Ho
 - int removeItem(string )
-	- 100% Kwan Ka Man
+	- 100% Kwan Nga Man
 - int editItem(string)
-	- 70% Kwan Ka Man
+	- 70% Kwan Nga Man
 	- 30% Cheung Chun Ho
 - int readDataFromFile(item inventory[])
-	- 100% Kwan Ka Man
+	- 100% Kwan Nga Man
 - int writeDataToFile(item inventory[], int itemNo)
-	- 100% Kwan Ka Man
+	- 100% Kwan Nga Man
 - bool itemExist(item inventory[], std::string s, int itemNo)
-	- 100% Kwan Ka Man
+	- 100% Kwan Nga Man
 - void printAllItem(item inventory[], int itemNo)
-	- 100% Kwan Ka Man
+	- 100% Kwan Nga Man
