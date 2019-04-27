@@ -67,7 +67,7 @@ The above line contains 5 information above the eggs just been imported. And it 
 The system will retrieve such information by seperating according to the commas.
 
 
-##Instructions to compile
+## Instructions to compile
 Clone this to your local directory and type make in you terminal, it will automatically link all source files and generate a bunch of new files, but the only executable is called main.
 
 Type
