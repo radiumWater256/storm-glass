@@ -73,3 +73,34 @@ Clone this to your local directory and type make in you terminal, it will automa
 Type
 	./main
 to start using the system
+
+
+# A Note to T.A.s and/or Lectuer
+
+Due to a massive offline change, github cannot correctly determine me and my group mates' code contribution, with my group mate's approvel, a list of contribution is written below to show the coontribution of each of us in the system, in terms of function.
+
+- int main()
+	- 90% Cheung Chun Ho
+	- 10% Kwan Ka Man
+- int mainMenu(string , bool)
+	- 100% Cheung Chun Ho
+- int searchItem()
+	- 90% Kwan Ka Man
+- bool checkDateStr(string dateStr)
+	- 100% Chun Chun Ho
+- int addItem(string )
+	- 80% Kwan Ka Man
+	- 20% Cheung Chun Ho
+- int removeItem(string )
+	- 100% Kwan Ka Man
+- int editItem(string)
+	- 70% Kwan Ka Man
+	- 30% Cheung Chun Ho
+- int readDataFromFile(item inventory[])
+	- 100% Kwan Ka Man
+- int writeDataToFile(item inventory[], int itemNo)
+	- 100% Kwan Ka Man
+- bool itemExist(item inventory[], std::string s, int itemNo)
+	- 100% Kwan Ka Man
+- void printAllItem(item inventory[], int itemNo)
+	- 100% Kwan Ka Man
