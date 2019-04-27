@@ -1,0 +1,103 @@
+All test cases:
+
+Test case before entering mainMenu():
+1. [Invalid usesrname]
+input: a
+output:
+Invalid Username, this attempt will be reported
+Press <Enter> to exit
+
+2. [Valid non-admin username]
+input: alex
+output: 
+Welcome <alex> redirecting you to main menu...
+Corned beef is expired for 3110.98 day(s)
+Eggs is expired for 0.983553 day(s)
+Beer is expired for 5.98355 day(s)
+Inventory Management System v1 "Storm Glass" Main Menu
+Login time: 2019-04-27 23:36:19
+Edit Item
+List all Items
+Search Item
+Quit the Program
+Please enter you choice (Type the underlined characters to select the function):
+
+3. [Valid admin username]
+input: su
+output:
+Welcome <su> redirecting you to main menu...
+Corned beef is expired for 3110.98 day(s)
+Eggs is expired for 0.984583 day(s)
+Beer is expired for 5.98458 day(s)
+Admin privilege found
+Please Enter password:
+
+3.1. [Correct password]
+input: 9527
+output:
+Password correct, access granted...
+Inventory Management System v1 "Storm Glass" Main Menu
+Login time: 2019-04-27 23:39:08
+
+Add Item
+Delete Item
+Edit Item
+List all Items
+Search Item
+Quit the Program
+Please enter you choice (Type the underlined characters to select the function):
+
+3.2. [Incorrect password]
+input: 1340
+output:
+Wrong password, access denied...
+Press <Enter> to exit...
+
+Test case after entering mainMenu() for admin (which already include mainMenu() for non-admin):
+1. input: a
+[Call addItem()]
+2. input: d
+[Call removeItem()]
+3. input: e
+[Call editItem()]
+4. input: l
+[Call listAllItems()]
+5. input: s
+[Call searchItem()]
+6. input: q
+output: 
+Signing out and quitting...
+Thank you for using the commodity management system
+Press <Enter> to Exit...
+7. [Invalid option]
+input: j
+[Call mainMenu()]
+
+Test case for addItem():
+1.
+input:
+Orange Juice
+Juice
+3
+3
+2019-04-27 12:00:00
+
+output:
+Continue to add? (Type 'y' for yes, otherwise no)
+
+1.1. input: y
+[Call addItem()]
+1.2. input: n
+[Call mainMenu()]
+
+2.
+input:
+Orange Juice
+Juice
+3
+3
+2019-04-27 12:00
+
+output:
+Invalid date, please reenter...
+Import Date (yyyy-mm-dd):
